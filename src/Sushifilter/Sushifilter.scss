@@ -1,0 +1,29 @@
+.sushi-filter {
+    color: rgb(78,126,78);
+    padding: 0 1rem;
+  }
+  
+  .sushi-filter__control {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    // justify-content: space-between;
+    margin: 1rem 0;
+  }
+  
+  .sushi-filter label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    
+  }
+  
+  .sushi-filter select {
+    font: inherit;
+    padding: 0.5rem 3rem;
+    font-weight: italic;
+    border-radius: 6px;
+  }
+
+  .sushi-filter select:hover{
+    cursor: pointer;
+  }

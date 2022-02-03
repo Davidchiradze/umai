@@ -1,0 +1,99 @@
+.maininfo{
+    max-width: 1140px;
+    padding: 60px;
+    margin: 0 auto;
+@media  screen and (max-width: 1400px) {
+        padding: 5px;
+      
+}
+    
+}
+.maininfo::after{
+    clear:both;
+}
+
+
+
+
+
+.Info-section {
+
+    h2 {
+        color: #555;
+    }
+
+    p{
+        line-height: 145%;
+        width: 70%;
+        margin-left: 15%;
+        @media  screen and (max-width: 1400px) {
+        margin-left: 0px;
+        width: 95%;
+        margin: 10px;
+        text-align: center;
+      
+}
+    }
+
+}
+
+
+.timeicon::before{
+    content: "\f449";
+}
+
+.infocard{
+    h3{
+        display: block;
+        font-size: 1.17em;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+        @media  screen and (max-width: 1400px) {
+            height: 1px;
+    }
+    }
+    p {
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-size: 90%;
+        line-height: 145%;
+    }
+    @media  screen and (max-width: 1400px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0px;
+}
+}
+
+.maininfo-2{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 60px;
+
+    @media  screen and (max-width: 1400px) {
+        flex-direction: column;
+}
+    
+    i{
+        height: 70px;
+        width: 70px;
+        color: rgb(78,126,78);
+        
+            @media  screen and (max-width: 1400px) {
+                font-size: 200%;
+                height: 30px;
+        
+    }
+}
+}
+
+

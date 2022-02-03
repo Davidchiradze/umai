@@ -1,0 +1,73 @@
+.btn{
+    border-radius: 200px;
+    border: 1px solid #4e7e4e;
+    padding: 10px 30px;
+    cursor: pointer;
+    
+}
+
+.btn-full{
+    background-color:rgb(78,126,78);
+    color:#fff;
+    text-decoration: none;
+}
+
+.btn-ghost{
+    color:rgb(78,126,78);
+    text-decoration: none;
+}
+
+.btn-ghost:hover
+{
+    background-color:rgb(78,126,78);
+    color:#fff;
+    transition: background-color 0.25s, border 0.2s, color 0.2s;
+}
+
+.btn-full:hover, .btn-full:active {
+    border: 1px solid rgb(78,126,78);
+    background-color: rgb(96, 168, 96);
+    transition: background-color 0,2s, border 0,2s;
+}
+
+.headerbtn-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    width: 350px;
+    margin-left: -20px;
+}
+
+.modaldiv{
+    /* border: 2px solid #e9e9e9; */
+    /* opacity: 2 */
+    transform: translateX();
+    transition: all 500ms ease-in-out;
+}
+
+.modalphoto{
+  width: 100%;
+  height: auto;
+  border-radius: 30px;
+}
+
+.menubutton{
+ 
+    position: absolute;
+	padding: 10px;
+    border: 1px solid;
+	border-radius: 10px;
+	top: 150px;
+	right: 10px;
+	width: 100px;
+    cursor: pointer;
+}
+.menubutton{
+    color:#555
+}
+
+.menubutton:hover
+{
+    background-color:rgb(78,126,78);
+    color:#fff;
+    transition: background-color 0.25s, border 0.2s, color 0.2s;
+}
