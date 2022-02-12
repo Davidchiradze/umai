@@ -64,13 +64,11 @@ function App() {
 </Routes> 
 
 <MessengerCustomerChat
-    theme_color="#4E7E4E"
-    theme_color="<4E7E4E>"
+    themeColor={'#4E7E4E'}
     pageId="726112184110869"
     appId="422412572998369"
-    logged_in_greeting="<მოგესალმებათ უმაი სუში>"
-    logged_in_greeting="მოგესალმებათ უმაი სუში !>"
-
+    loggedInGreeting='მოგესალმებათ უმაი სუში'
+               
   />
 
     </div>
