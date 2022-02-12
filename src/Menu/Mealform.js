@@ -2,6 +2,7 @@ import './Roli.scss'
 const Mealform =({array})=>{
  return(
      <div className='whole-box'>
+         <h2>{array[0].type}</h2>
         {array.map((item)=>(
             <div className='product-box'> 
                 <img src={item.photo} alt=""/>

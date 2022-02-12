@@ -25,6 +25,9 @@ import Salatebi from './Menu/Salatebi'
 import Setebi from './Menu/Setebi';
 import Sasmelebi from './Menu/Sasmelebi';
 import { useNavigate } from 'react-router';
+import {Map, InfoWindow, Marker, GoogleApiWrapper} from 'google-maps-react';
+import MapContainer from './GoogleMap/Googlemap';
+
 
 
 
@@ -34,10 +37,11 @@ function App() {
 
 
   return (
+    <>
     <div>
       
 <Routes>
-          <Route exact path="/Menu/sasmelebi" element={<Mealform array={Sasmelebiarray}></Mealform>}/>
+          <Route exact path="/Menu/sasmelebi" element={<Sasmelebi array={Sasmelebiarray}></Sasmelebi>}/>
           <Route exact path="/Menu/setebi" element={<Mealform array={Setebiarray}></Mealform>}/>
           <Route exact path="/Menu/salatebi" element={<Mealform array={Salatebiarray}></Mealform>}/>
           <Route exact path="/Menu/sxva" element={<Mealform array={Otherarray}></Mealform>}/>
@@ -51,19 +55,23 @@ function App() {
                             <Header></Header>
                             <Info></Info>
                             <Interior></Interior>
-                            <Carousel></Carousel>
+                            <Carousel></Carousel> 
+                            <MapContainer/>
                             <Footer></Footer>
+                           
                       </React.Fragment>
                     }/>
 </Routes> 
 
 <MessengerCustomerChat
-    theme_color='#fff'
+    theme_color="<#4E7E4E>"
     pageId="726112184110869"
     appId="422412572998369"
   />
 
     </div>
+    {/* <MapContainer/> */}
+</>
   );
 }
 

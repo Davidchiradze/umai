@@ -2,11 +2,9 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    h2{
-        margin-top:40px;
-    }
+    
 }
-.product-box{
+.sasmelebi-product-box{
     @media  screen and (max-width: 1400px) {
         width: 375px;
      }
@@ -55,9 +53,8 @@
         font-weight:bold;
         @media  screen and (max-width: 1400px) {
            position: absolute;
-           padding-top: 140px;
+           padding-top: 122px;
            padding-left: 16px;
-
          }
     }
 }

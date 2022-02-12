@@ -69,13 +69,12 @@ const Menu = () => {
   let navigate = useNavigate();
 
 
-
-
-
   
   return (
-
+<div>
+             <h2 className="menuh2">Menu</h2>
                       <div className="Menu-body">
+                          
                       {
                         testArr.map((item)=> <div onClick={()=> navigate(`${item.directTo}`)} className="Menu-item">
                         {item.name}
@@ -85,7 +84,7 @@ const Menu = () => {
                       }
                 
                     </div>
-   
+   </div>
   );
 };
 

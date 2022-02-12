@@ -2,6 +2,7 @@ import {useState} from 'react';
 import './Header.scss'
 import logo from '../photos/logo.png'
 import Headerbtn from '../HeaderButton/Headerbtn';
+import { useEffect } from 'react/cjs/react.development';
 
 const  Header=()=>{
     const [scrolled, setScrolled] = useState()
@@ -16,12 +17,18 @@ const  Header=()=>{
         
     }
     
-    const onScroll = (e) => {
+    useEffect(()=>{
+          const onScroll = (e) => {
         if (window.pageYOffset > (window.innerHeight - 70)) setScrolled(true)
         else setScrolled(false)
     }
 
     window.addEventListener('scroll', onScroll)
+    return ()=> {
+        window.removeEventListener('scroll', onScroll)
+    }
+    },[])
+  
 
 
 return(

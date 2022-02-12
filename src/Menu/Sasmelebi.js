@@ -1,11 +1,11 @@
-import {Sasmelebiarray} from '../Constants/Menulist';
-import './Roli.scss'
-const Sasmelebi =()=>{
+import './Sasmelebi.scss'
+const Sasmelebi =({array})=>{
  return(
      <div className='whole-box'>
-        {Sasmelebiarray.map((item)=>(
-            <div className='product-box'> 
-                <img src={item.photo} alt="img"/>
+         <h2>{array[0].type}</h2>
+        {array.map((item)=>(
+            <div className='sasmelebi-product-box'> 
+                <img src={item.photo} alt=""/>
                 <div className='product-info'>
                 <h2>{item.saxeli} </h2>
                 <p>{item.ingredientebi}</p>
@@ -18,4 +18,3 @@ const Sasmelebi =()=>{
 };
 
 export default Sasmelebi;
-
