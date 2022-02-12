@@ -10,12 +10,12 @@ const MapContainer  = (props) => {
     <div className='google-map-wrapper'>
     <Map
     google={props.google}
-    zoom={8}
+    zoom={14}
     style={mapStyles}
-    initialCenter={{ lat: 47.444, lng: -122.176}}
+    initialCenter={{ lat: 42.269447, lng: 42.710943}}
     >
      
-          <Marker position={{ lat: 48.00, lng: -122.00}} />
+          <Marker position={{ lat: 42.269447, lng: 42.710943}} />
           
     </Map>
 </div>
