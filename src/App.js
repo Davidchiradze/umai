@@ -56,8 +56,10 @@ function App() {
                             <Info></Info>
                             <Interior></Interior>
                             <Carousel></Carousel> 
-                          <section classname="mapsection"><MapContainer/> </section>  
-                            <Footer></Footer>
+                          <section classname="mapsection"><MapContainer/> 
+                          <Footer></Footer>
+                          </section>  
+                            
                       </React.Fragment>
                     }/>
 </Routes> 
