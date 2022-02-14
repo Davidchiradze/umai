@@ -37,7 +37,7 @@ return(
          <img src={logo} className="logo"/>
          <i onClick={handleNavbuttoned} class={`${navbuttoned ? 'far fa-times-circle' : 'fas fa-bars'} `}></i>
         <ul class={`${navbuttoned ? 'main-nav-mobile' : 'main-nav'} `}> 
-            <li> <a> რატომ უმაი? </a> </li>
+            <li> <a> რატომ უმაი ? </a> </li>
             <li> <a> ინტერიერი</a></li>
             <li> <a> სიახლეები</a></li>
             <li> <a> ჩვენს შესახებ</a></li>
