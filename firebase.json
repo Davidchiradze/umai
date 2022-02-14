@@ -1,10 +1,10 @@
 {
   "hosting": {
-    "public": "dist/umai",
+    "public": "umai",
     "ignore": [
       "firebase.json",
-      "*/.",
-      "/node_modules/"
+      "**/.*",
+      "**/node_modules/**"
     ],
     "rewrites": [
       {
