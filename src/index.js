@@ -3,11 +3,6 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Headerbtn from './HeaderButton/Headerbtn';
-import {Router, Route} from "react-router-dom";
-import {browserHistory} from "react-router"
-import Header from './Header/Header';
-import { createBrowserHistory } from 'history'
 import { BrowserRouter } from 'react-router-dom';
 ReactDOM.render(
   <React.StrictMode>
